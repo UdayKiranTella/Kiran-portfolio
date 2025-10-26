@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Uday's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">TELLA UDAY KIRAN<span></span></div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+    </nav>
+    <button class="hamburger" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h1>Hi, I'm Uday Kiran Tella</h1>
+          <p class="lead">"Passionate Full Stack Developer | Skilled in Frontend & Backend Technologies | Building Scalable, Interactive Web Solutions |  Creating Robust and User-Friendly Applications"</p>
+          <div class="type-wrap">I build <span id="typed" class="typed"></span></div>
+
+          <div class="cta">
+            <a class="btn" href="#projects">See my work</a>
+            <a class="btn outline" href="resume.html" target="_blank">Download CV</a>
+            <a class="btn outline" href="#contact">Hire me</a>
+          </div>
+
+          <div class="social">
+            <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:tellaudaykiran@gmail.com">Email</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="card-inner">
+            <img src="https://img.freepik.com/premium-photo/programmer-engineering-coding-programmer-working-code-web-app-development-computer_1036687-34129.jpg" alt="avatar"/>
+            <div class="stats">
+              <div><strong>Fresher</strong><span>Experience</span></div>
+              <div><strong>5+</strong><span>Projects</span></div>
+              <div><strong>Bangalore, India</strong><span> Location </span></div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <h2>About me</h2>
+      <div class="about-grid">
+        <p>I am a detail-oriented full-stack developer experienced in Java with strong knowledge of OOP, multithreading and backend architecture. I build scalable services, RESTful APIs and responsive frontends. I enjoy collaborating in Agile teams, writing clean code, and shipping production-ready systems.</p>
+        <ul>
+          <li>Phone: +91-7013922278</li>
+          <li>Email: <a href="mailto:tellaudaykiran@gmail.com">tellaudaykiran@gmail.com</a></li>
+          <li>LinkedIn: <a href="www.linkedin.com/in/uday-kiran-tella-a0b52b312">tellaudaykiran</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <h2>Selected projects</h2>
+      <div class="projects-grid">
+        <article class="project" data-project="interactive-learning">
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&s=example" alt="Interactive Learning"/>
+          <h3>Interactive Learning Platform</h3>
+          <p>Frontend for an educational platform with real-time editors, quizzes and responsive UI built with React.js.</p>
+          <button class="more">More</button>
+        </article>
+
+        <article class="project" data-project="tunhub">
+          <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&s=example" alt="TunHub"/>
+          <h3>TunHub Music Platform</h3>
+          <p>Backend microservices powering streaming, user accounts and payments. Designed RESTful APIs and scalable services.</p>
+          <button class="more">More</button>
+        </article>
+
+        <article class="project" data-project="food-console">
+          <img src="https://static.vecteezy.com/system/resources/previews/014/215/223/original/food-company-logo-app-icon-and-splash-page-design-creative-business-app-design-elements-free-vector.jpg" alt="Food Ordering"/>
+          <h3>Console Food Ordering App</h3>
+          <p>Console-based ordering and billing system implemented in Java with inventory modules and robust error handling.</p>
+          <button class="more">More</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section experience">
+      <h2>Experience & Highlights</h2>
+      <div class="about-grid">
+        <ul>
+          <li>Designed, coded and debugged applications in Java, Html,Css,JavaScript,ReactJS</li>
+          <li>Built Robust Projects, worked with GitLab  for automated builds and deployments.</li>
+          <li>Containerized apps using Docker and deployed services on Linux environments.</li>
+          <li>Worked with microservices, REST APIs and database schema design (MySQL).</li>
+        </ul>
+        <ul>
+          <li>Collaborative team development using Git/GitHub workflows.</li>
+          <li>Strong understanding of OOP, multithreading and scalable backend patterns.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <h2>Skills</h2>
+      <div class="skill-list">
+        <div class="skill"><label>Programming (Java)</label><div class="bar"><div style="--pct:92%"></div></div></div>
+        <div class="skill"><label>Web (HTML, CSS, JavaScript, React)</label><div class="bar"><div style="--pct:90%"></div></div></div>
+        <div class="skill"><label>Backend (Spring Boot, REST APIs)</label><div class="bar"><div style="--pct:85%"></div></div></div>
+        <div class="skill"><label>Databases (MySQL)</label><div class="bar"><div style="--pct:80%"></div></div></div>
+        <div class="skill"><label>Tools (Git, VS Code, Eclipse)</label><div class="bar"><div style="--pct:82%"></div></div></div>
+      </div>
+    </section>
+
+    <section id="education" class="section education">
+      <h2>Education</h2>
+      <div class="about-grid">
+        <ul>
+          <li><strong>B.Tech</strong> Electronics and Communication Engineering — Bapatla Engineering College (2019-2023), GPA: 8.14</li>
+          <li><strong>Intermediate</strong> MPC — Narayana Junior College (2017-2019), GPA: 7.92</li>
+          <li><strong>SSC</strong> Sri Chaitanya High School (2016-2017), GPA: 9.5</li>
+        </ul>
+        <ul>
+        </div>
+        </section>
+          <section id="certifications" class="section certifications">
+          <h2>Certifications:</h2>
+          <div class="about-grid">
+            <ul>
+              <li>Full Stack Java Development - NareshIT</li>
+              <li>Advanced SQL - HackerRank</li>
+              <li>Cybersecurity Analyst Job Simulation - Tata</li>
+              <li>Core Java - Brilliant Institute</li>
+            </ul>
+          </li>
+        </ul>
+        </div>
+    </section>
+
+    <section id="strengths" class="section strengths">
+      <h2>Strengths & Activities</h2>
+      <div class="about-grid">
+        <ul>
+          <li>Leadership, communication, quick adaptability, strong problem-solving and eagerness to learn.</li>
+          <li>Event organizer at Bectagon 2K23; received appreciation award for social service; runner-up in Engineers Day quiz.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <div class="row">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+        </div>
+        <textarea name="message" rows="6" placeholder="Message" required></textarea>
+        <div class="row actions">
+          <button type="submit" class="btn">Send Message</button>
+          <div id="formMsg" class="form-msg" aria-live="polite"></div>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Uday Kiran Tella</p>
+  </footer>
+
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="close">×</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
